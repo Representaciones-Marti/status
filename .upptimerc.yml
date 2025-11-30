@@ -1,4 +1,4 @@
-owner: Representaciones-Pedraja
+owner: Representaciones-Marti
 repo: status
 
 # User agent personalizado para evitar bloqueos
@@ -6,44 +6,28 @@ user-agent: Mozilla/5.0 (compatible; PedrajaStatus/1.0)
 
 sites:
   - name: "Shop"
-    url: https://pedraja.es
+    url: https://repremarti.es
     maxResponseTime: 30000
 
   - name: "Cloud"
-    url: https://cloud.pedraja.es
+    url: https://cloud.repremarti.es
     maxResponseTime: 30000
 
   - name: "Billing"
-    url: https://odoo.pedraja.es
+    url: https://odoo.repremarti.es
     maxResponseTime: 30000
 
   - name: "Mail"
-    url: mail.pedraja.es
+    url: mail.repremarti.es
     port: 25
     check: "tcp-ping"
 
   - name: "Webmail"
-    url: https://webmail.pedraja.es
-    maxResponseTime: 30000
-
-  - name: "Pdrj"
-    url: https://pdrj.es
+    url: https://webmail.repremarti.es
     maxResponseTime: 30000
 
   - name: "Backups"
-    url: https://backup.pedraja.es
-    maxResponseTime: 30000
-
-  - name: "Matomo"
-    url: https://analytics.pedraja.es
-    maxResponseTime: 30000
-
-  - name: "Grafana"
-    url: https://grafana.pedraja.es
-    maxResponseTime: 30000
-
-  - name: "VPN"
-    url: https://vpn.pedraja.es
+    url: https://backup.repremarti.es
     maxResponseTime: 30000
 
 scheduledMaintenances:
@@ -54,10 +38,10 @@ scheduledMaintenances:
     schedule: "0 3 * * *"  # Cambiar "cron" por "schedule"
 
 status-website:
-  cname: status.pedraja.es
-  name: Pedraja Status
-  logoUrl: https://pedraja.es/img/logo-1700576909.webp 
-  favicon: https://pedraja.es/img/favicon.ico
+  cname: status.repremarti.es
+  name: RepreMarti Status
+  logoUrl: https://repremarti.es/img/logo-1727095273.webp
+  favicon: https://repremarti.es/img/favicon.ico
   introTitle: "**Estado de los servicios de Pedraja**"
   introMessage: Monitoreo en tiempo real de nuestros servicios principales.
   theme: light
@@ -66,7 +50,7 @@ status-website:
     - title: Status
       href: /
     - title: Sitio Web
-      href: https://pedraja.es
+      href: https://repremarti.es
 
 # Notificaciones
 assignees:
@@ -74,18 +58,12 @@ assignees:
 
 # Personalización
 i18n:
-  footer: "© 2025 Pedraja.es"
+  footer: "© 2025 repremarti.es"
   
 commitMessages:
-  commitAuthorName: "Pedraja Status Bot"
+  commitAuthorName: "RepreMarti Status Bot"
   commitAuthorEmail: "josemanuel@pedraja.es"
 
 skipDescriptionIssues: true
 skipTopicsIssues: true
 
-notifications:
-  - type: telegram
-    token: ${{ secrets.TELEGRAM_TOKEN }}
-    chat_id: -1002746763432
-    downtime_message: "⚠️ *Servicio caído:* {{ site.name }} ({{ site.url }})"
-    recovery_message: "✅ *Servicio restaurado:* {{ site.name }}"
