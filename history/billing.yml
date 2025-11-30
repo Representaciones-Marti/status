@@ -1,7 +1,7 @@
 url: https://odoo.repremarti.es
-status: down
-code: 403
-responseTime: 95
-lastUpdated: 2025-11-30T12:36:43.700Z
+status: up
+code: 200
+responseTime: 1082
+lastUpdated: 2025-11-30T13:20:52.711Z
 startTime: 2025-11-23T21:38:58.707Z
 generator: Upptime <https://github.com/upptime/upptime>
