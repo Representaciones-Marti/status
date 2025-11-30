@@ -2,7 +2,7 @@ owner: Representaciones-Marti
 repo: status
 
 # User agent personalizado para evitar bloqueos
-user-agent: Mozilla/5.0 (compatible; PedrajaStatus/1.0)
+user-agent: Mozilla/5.0 (compatible; Status/1.0)
 
 sites:
   - name: "Shop"
