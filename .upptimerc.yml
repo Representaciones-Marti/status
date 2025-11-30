@@ -27,7 +27,7 @@ sites:
     maxResponseTime: 30000
 
   - name: "Backups"
-    url: https://backup.repremarti.es
+    url: https://backup.repremarti
     maxResponseTime: 30000
 
 scheduledMaintenances:
