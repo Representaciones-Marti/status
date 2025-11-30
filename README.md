@@ -1,8 +1,8 @@
-# [📈 Pedraja Status](https://representaciones-pedraja.github.io/status/)
+# [📈 RepreMarti Status](https://representaciones-marti.github.io/status/)
 
-Monitor de disponibilidad de los servicios de Pedraja.es
+Monitor de disponibilidad de los servicios de RepreMarti.es
 
-### 🔗 [Ver página de status →](https://representaciones-pedraja.github.io/status/)
+### 🔗 [Ver página de status →](https://representaciones-marti.github.io/status/)
 
 ---
 
