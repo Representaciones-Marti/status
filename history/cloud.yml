@@ -1,7 +1,7 @@
 url: https://cloud.repremarti.es
-status: up
-code: 200
-responseTime: 928
-lastUpdated: 2025-12-18T23:22:54.357Z
+status: down
+code: 502
+responseTime: 51
+lastUpdated: 2025-12-19T11:55:51.312Z
 startTime: 2025-11-23T21:38:57.858Z
 generator: Upptime <https://github.com/upptime/upptime>
